@@ -1,5 +1,0 @@
-torch==1.12.1
-voila
-numpy==1.22.4
-flask==1.1.2
-werkzeug==2.1.2

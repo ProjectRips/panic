@@ -1,2 +1,0 @@
-# padex-android-app
-

@@ -1,1 +1,0 @@
-# model_uas_sispak_kelompok1
