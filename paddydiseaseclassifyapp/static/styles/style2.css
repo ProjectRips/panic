@@ -1,0 +1,255 @@
+
+
+body {
+    background-color: white;
+  }
+  
+    .homeBG{
+      background-image: url(../self_photo/home_bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .aboutusBG{
+      background-image: url(../self_photo/aboutus_bg2_cropped.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .blb{
+      background-image: url(../self_photo/diseases_library_imgs/header-blb.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .narrowBrownSpot{
+      background-image: url(../self_photo/diseases_library_imgs/narrow_brown_spot_1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .bls{
+      background-image: url(../self_photo/diseases_library_imgs/bls-header.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .bpb{
+      background-image: url(../self_photo/diseases_library_imgs/bpb_bg1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .blas{
+      background-image: url(../self_photo/diseases_library_imgs/blas_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .sundep{
+      background-image: url(../self_photo/diseases_library_imgs/sundepbg1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .bulai{
+      background-image: url(../self_photo/diseases_library_imgs/bulaibg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .hispa{
+      background-image: url(../self_photo/diseases_library_imgs/hispabg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .tungro{
+      background-image: url(../self_photo/diseases_library_imgs/tungrobg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    header {
+      font-family: 'Yeseva One';
+      color:  white;
+      font-size: 20px;
+    }
+  
+    .row {
+      margin-left: 0!important;
+      margin-right: 0!important;
+    }
+  
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+
+    .center-carousel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 42%!important;
+        border-radius: 5px;
+    }
+    
+    .font-yeseva-one {
+      font-family: 'Yeseva One';
+    }
+  
+    .font-im-fell {
+      font-family: 'IM Fell Double Pica'
+    }
+  
+    .font-dark-green {
+      color: #374b27;
+    }
+  
+    .font-green {
+      color: #6C875E;
+    }
+  
+    .pHome {
+      color: white!important;
+      font-size: 18px;
+      text-align: center;
+      margin-left: 17%;
+      margin-right: 17%;
+    }
+  
+    .tabs {
+      display: block;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0;
+      overflow: hidden; 
+      background-color: white;
+    }
+  
+    .tabs [class^="tab"] label,
+    .tabs [class*=" tab"] label {
+      color: white;
+      cursor: pointer;
+      display: block;
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1em;
+      padding: 1.2rem 0;
+      text-align: center; 
+      background-color: #2C3C1F;
+    }
+  
+    .tabs [class^="tab"] [type="radio"],
+    .tabs [class*=" tab"] [type="radio"] {
+      border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      display: block;
+      width: 100%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; 
+    }
+  
+    .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+    .tabs [class*=" tab"] [type="radio"]:hover,
+    .tabs [class*=" tab"] [type="radio"]:focus {
+      border-bottom: 1px solid black; 
+    }
+  
+    .tabs [class^="tab"] [type="radio"]:checked,
+    .tabs [class*=" tab"] [type="radio"]:checked {
+      border-bottom: 2px solid black; 
+    }
+  
+    .tabs [class^="tab"] [type="radio"]:checked + div,
+    .tabs [class*=" tab"] [type="radio"]:checked + div {
+      opacity: 1; 
+    }
+  
+    .tabs [class^="tab"] [type="radio"] + div,
+    .tabs [class*=" tab"] [type="radio"] + div {
+      display: block;
+      opacity: 0;
+      padding: 2rem 0;
+      width: 90%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; 
+    }
+  
+    .tabs .tab-2 {
+      width: 50%; 
+    }
+  
+    .tabs .tab-2 [type="radio"] + div {
+      width: 200%;
+      margin-left: 200%; 
+    }
+    .tabs .tab-2 [type="radio"]:checked + div {
+      margin-left: 0; 
+    }
+  
+    .tabs .tab-2:last-child [type="radio"] + div {
+      margin-left: 100%; 
+    }
+  
+    .tabs .tab-2:last-child [type="radio"]:checked + div {
+      margin-left: -100%; 
+    }
+  
+    hr {
+     border: 1px solid #2C3C1F;
+     opacity: 1;
+     width: 75%;
+     margin-left: auto;
+     margin-right: auto;
+  }
+  
+  footer {
+    background-color: #2C3C1F;
+    width: 100%;
+    margin-top: 90px;
+    color: white;
+  }
+  
+  .footerHome {
+    background: rgba(76, 175, 80, 0);
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+  }
+  
+  .fa-2xl {
+    color: white!important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+    color: inherit;
+  }
+
+  .btnEmail {
+    color: white; 
+    background-color: #C4953D; 
+    width: 50%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: none;
+  }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/styles/style2.css">
+    <link rel="stylesheet" href="../static/styles/fontawesome-free-6.2.1-web/css/all.css">
+    <script src="../static/styles/fontawesome-free-6.2.1-web/js/all.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <title>Panic </title>
+</head>
+
+<body>
+    <div class="bls">
+        <header>
+            <div class="row" style="padding-top:50px!important;padding-bottom:50px;text-align: center;">
+                <div class="col-2 offset-3">
+                    <a class="active fw-bold" href="{{ url_for('index') }}">Home</a>
+                </div>
+                <div class="col-2">
+                    <a class="active fw-bold" href="{{ url_for('predict') }}">Deteksi</a>
+                </div>
+                <div class="col-2">
+                    <a class="active fw-bold" href="{{ url_for('aboutus') }}">Tentang Kami</a>
+                </div>
+              
+            </div>
+        </header>
+        <div style="text-align: center;color: white;padding-top: 50px; padding-bottom: 100px;" class="font-yeseva-one">
+            <h1>HAWAR DAUN BERGARIS</h1>
+        </div>
+    </div>
+
+
+
+    <div class="container" style="text-align: center;margin-top: 50px;font-size: 1.5em;color: #2C3C1F;
+        padding-right: 6%; padding-left: 6%;">
+        <p class="font-im-fell">
+            Penyakit hawar daun bergaris disebabkan oleh Xanthomonas campestris pv. oryzicola. Penyakit ini biasanya
+            terjadi hanya pada helaian daun saja.
+        </p>
+    </div>
+    <div style="margin-top: 100px;"></div>
+
+    <div class="container" style="padding-right: 6%; padding-left: 6%;">
+        <div class="row align-items-center">
+            <div class="col-5">
+                <img src="../static/self_photo/diseases_library_imgs/bls.jpg" class="center" style="width: 70%">
+            </div>
+            <div class="col-7" style="text-align: center;">
+                <h3 class="font-yeseva-one" style="text-align:center;color:#2C3C1F;">GEJALA</h3>
+                <hr />
+                <p class="font-im-fell" style="font-size: 1.3em;color: #2C3C1F;">
+                    Gejala yang timbul berupa bercak sempit berwarna hijau gelap yang lama-kelamaan membesar berwarna
+                    kuning dan tembus cahaya di antara pembuluh daun. Sejalan dengan berkembangnya penyakit, bercak
+                    membesar, berubah menjadi berwarna coklat, dan berkembang menyamping melampaui pembuluh daun yang
+                    besar. Seluruh daun varietas yang rentan bisa berubah warna menjadi coklat dan mati. Pada keadaan
+                    ideal untuk infeksi, seluruh pertanaman menjadi berwarna oranye kekuning-kuningan.
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top: 100px;"></div>
+
+        <div class="row align-items-center">
+            <div class="col-7" style="text-align: center;">
+                <h3 class="font-yeseva-one" style="text-align:center;color:#2C3C1F;">CARA PENANGGULANGAN</h3>
+                <hr />
+
+                <ul class="font-im-fell" style="font-size: 1.3em;color: #2C3C1F;text-align: left;">
+                    <li>
+                        Buang atau hancurkan tunggul-tunggul dan jerami-jerami yang terinfeksi/sakit
+                    </li>
+                    <li>
+                        Pastikan jerami dari tanaman sakit sudah ter-dekomposisi sempurna sebelum tanam pindah
+                    </li>
+                    <li>
+                        Gunakan benih atau bibit yang bebas dari penyakit bakteri daun bergaris
+                    </li>
+                    <li>
+                        Gunakan pupuk nitrogen sesuai anjuran
+                    </li>
+                    <li>
+                        Atur jarak tanam tidak terlalu rapat
+                    </li>
+                    <li>
+                        Berakan tanah sesudah panen
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-5">
+                <img src="../static/self_photo/diseases_library_imgs/bls1.jpg" class="center" style="width: 70%;">
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top: 35px;"></div>
+
+    <hr style="width: auto!important; margin-right: 8%!important; margin-left: 8%!important;">
+
+    <div style="margin-top: 35px;"></div>
+
+    <div class="container font-im-fell" style="color: #2C3C1F; margin-right: 7%!important;margin-left: 7%!important;
+        font-size: 1.1em;">
+        <div class="row">
+            <div class="col-lg-4">
+                PENYAKIT PADI
+                <br><br>
+                <a href="{{ url_for('information_blb') }}">Hawar Daun Bakteri</a>
+                <br>
+                <a href="{{ url_for('information_brown_spot') }}">Bercak Daun Coklat</a>
+                <br>
+                <a href="{{ url_for('information_bulai') }}">Bulai</a>
+                <br>
+                <a href="{{ url_for('information_tungro') }}">Tungro</a>
+            </div>
+            <div class="col-lg-4">
+                TIPS
+                <br><br>
+                Cara Penanggulangan Penyakit Blas
+                <br>
+                Cara Mencegah Padi Terjangkit Penyakit
+                <br>
+                Products for paddy diseases
+            </div>
+            <div class="col-lg-4">
+                Produk Kami
+                <br><br>
+                Desinfektan
+                <br>
+                Pestisida
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row align-items-center" style="  height: 6rem;">
+            <div class="col-2" style="text-align: center;">
+                <span class="font-yeseva-one">
+                    © PANIC 2022
+                </span>
+                <br>
+                <span class="font-im-fell" style="font-size: 0.6em;">
+                    ALL RIGHTS RESERVED
+                </span>
+            </div>
+            <div class="col-2 offset-8" style="text-align: center;">
+                <i class="fa-brands fa-telegram fa-2xl"></i>
+                &nbsp;&nbsp;
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+                &nbsp;&nbsp;
+                <i class="fa-brands fa-twitter fa-2xl"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
